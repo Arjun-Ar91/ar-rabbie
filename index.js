@@ -50,6 +50,7 @@ class ActionHelper {
     static sendText(locator, inputText) {
         console.log('******* i am in SENDTEXT');
         console.log('******* i am in SENDTEXT');
+        console.log('******* i am in SENDTEXT');
         $(locator).addValue(inputText);
     }
 
