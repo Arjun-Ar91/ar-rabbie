@@ -15,6 +15,9 @@ const swipePercentages = {
 
 class ActionHelper {
 
+    static launchUrl(url){
+        browser.url(url);
+    }
     static launchApp() {
         driver.launchApp();
     }
