@@ -12,6 +12,10 @@ class ActionHelper {
         $(locator).addValue(inputText);
     }
 
+    static getText(locator) {
+        return $(locator).getText();
+    }
+
 }
 
 module.exports = ActionHelper;
